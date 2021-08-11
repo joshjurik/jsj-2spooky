@@ -1,0 +1,88 @@
+body {
+    background-color: #c9c9c9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container, .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    width: 50%;
+    border-top: 5px #333 solid;
+    border-bottom: 5px #333 solid;
+    border-left: 10px #333 solid;
+    border-right: 10px #333 solid;
+    padding: 0 20px;
+}
+.container:first-child {
+    border-top: 10px #333 solid;
+}
+.container:last-child {
+    border-bottom: 10px #333 solid;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+
+.desc {
+    font-size: 20px;
+    text-transform: uppercase;
+    max-width: 400px;
+}
+
+.spoopy-btn {
+    padding: 20px;
+    background-color: #db8d44;
+    color: white;
+    border: 2px #333 solid;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.spoopy-btn:hover {
+    background-color: #c47e3c;
+}
+
+.spoopy-btn:active {
+    background-color: #c47023;
+}
+
+/* 
+    base darker colors
+    if I was using sass
+    these would be variables    
+*/
+#lvl-one {
+    background-color: #662419;
+    color: #ffffff;
+}
+#lvl-two {
+    background-color: #874b21;
+    color: #ffffff;
+}
+#lvl-three {
+    background-color: #7a6d1c;
+    color: #ffffff;
+}
+#lvl-four {
+    background-color: #1a5268;
+    color: #ffffff;
+}
+#lvl-five {
+    background-color: #155e23;
+    color: #ffffff;
+}
